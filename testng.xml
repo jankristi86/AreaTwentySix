@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="udemy.Listeners" />
+		<listener class-name="resources.ExtentReporterNG" />
+
+	</listeners>
+	<test thread-count="5" name="App Testing">
+		<classes>
+			<class name="udemy.AppTest" />
+		</classes>
+	</test>
+
+	<test name="Validating nav bar">
+		<classes>
+			<class name="udemy.ValidateNavBar" />
+		</classes>
+	</test>
+
+	<test name="Validating title">
+		<classes>
+			<class name="udemy.ValidateTitle" />
+		</classes>
+	</test>
+
+	<test name="Validating login">
+		<classes>
+			<class name="udemy.HomePage" />
+		</classes>
+	</test>
+
+	<!-- Test -->
+</suite> <!-- Suite -->

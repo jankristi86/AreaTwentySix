@@ -1,0 +1,8 @@
+13:43:43.755 [main] INFO  resources.Base - driver is initialized
+13:43:50.660 [main] INFO  resources.Base - navigated to Home Page
+13:43:50.703 [main] INFO  resources.Base - successfully validated text message
+13:44:04.083 [main] INFO  resources.Base - password keys sent
+13:44:05.558 [main] INFO  resources.Base - password keys sent
+13:47:24.544 [main] INFO  resources.Base - Navigation bar is displayed
+13:47:34.048 [main] INFO  resources.Base - driver is initialized
+13:47:39.024 [main] INFO  resources.Base - navigated to Home Page

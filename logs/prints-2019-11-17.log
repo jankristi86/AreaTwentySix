@@ -1,0 +1,8 @@
+11:53:25.854 [main] INFO  resources.Base - password keys sent
+11:53:27.551 [main] INFO  resources.Base - password keys sent
+12:03:20.663 [main] INFO  resources.Base - Navigation bar is displayed
+12:03:25.907 [main] INFO  resources.Base - driver is initialized
+12:03:32.755 [main] INFO  resources.Base - navigated to Home Page
+12:03:32.799 [main] INFO  resources.Base - successfully validated header text
+12:03:32.827 [main] INFO  resources.Base - successfully validated featured courses text
+12:03:49.252 [main] INFO  resources.Base - password keys sent
