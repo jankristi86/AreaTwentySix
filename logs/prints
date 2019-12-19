@@ -1,8 +1,7 @@
-21:16:42.181 [main] INFO  resources.Base - navigated to Home Page
-21:16:42.273 [main] INFO  resources.Base - successfully validated header text
-21:16:42.321 [main] INFO  resources.Base - successfully validated featured courses text
-21:16:59.852 [main] INFO  resources.Base - password keys sent
-21:17:01.868 [main] INFO  resources.Base - password keys sent
-18:41:54.418 [main] INFO  resources.Base - Navigation bar is displayed
-18:41:59.561 [main] INFO  resources.Base - driver is initialized
-18:43:00.366 [main] INFO  resources.Base - navigated to Home Page
+14:07:57.515 [main] INFO  resources.Base - Navigation bar is displayed
+14:08:02.693 [main] INFO  resources.Base - driver is initialized
+14:08:05.861 [main] INFO  resources.Base - navigated to Home Page
+14:08:05.905 [main] INFO  resources.Base - successfully validated header text
+14:08:05.938 [main] INFO  resources.Base - successfully validated featured courses text
+14:08:17.586 [main] INFO  resources.Base - password keys sent
+14:08:19.139 [main] INFO  resources.Base - password keys sent

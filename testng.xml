@@ -6,12 +6,7 @@
 		<listener class-name="resources.ExtentReporterNG" />
 
 	</listeners>
-	<test thread-count="5" name="App Testing">
-		<classes>
-			<class name="udemy.AppTest" />
-		</classes>
-	</test>
-
+	
 	<test name="Validating nav bar">
 		<classes>
 			<class name="udemy.ValidateNavBar" />

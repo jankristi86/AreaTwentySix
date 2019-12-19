@@ -29,15 +29,15 @@
     <div class="navigator-root">
       <div class="navigator-suite-header">
         <span>All suites</span>
-        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
-          <img src="collapseall.gif" class="collapse-all-icon">
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
           </img> <!-- collapse-all-icon -->
         </a> <!-- collapse-all-link -->
       </div> <!-- navigator-suite-header -->
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" panel-name="suite-Suite" class="navigator-link">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
               <span class="suite-name border-passed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
@@ -48,37 +48,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
                     <span>C:\Users\Jankristi\selenium-workspace\ProjectTwentySix\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
-                    <span class="test-stats">4 tests</span>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">3 tests</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -101,28 +101,28 @@
                     </span>
                     <div class="method-list-content passed suite-Suite">
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="udemy.HomePage" class="method navigator-link" hash-for-method="loginPageTest(restricteduser@qw.com, 456789)">loginPageTest(restricteduser@qw.com, 456789)</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udemy.HomePage" hash-for-method="loginPageTest(restricteduser@qw.com, 456789)">loginPageTest(restricteduser@qw.com, 456789)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="udemy.HomePage" class="method navigator-link" hash-for-method="loginPageTest(nonerestricteduser@qw.com, 123456)">loginPageTest(nonerestricteduser@qw.com, 123456)</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udemy.HomePage" hash-for-method="loginPageTest(nonerestricteduser@qw.com, 123456)">loginPageTest(nonerestricteduser@qw.com, 123456)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="udemy.ValidateTitle" class="method navigator-link" hash-for-method="validateHeader">validateHeader</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udemy.ValidateTitle" hash-for-method="validateHeader">validateHeader</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="udemy.ValidateNavBar" class="method navigator-link" hash-for-method="validateNavBarTest">validateNavBarTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udemy.ValidateNavBar" hash-for-method="validateNavBarTest">validateNavBarTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="udemy.ValidateTitle" class="method navigator-link" hash-for-method="validateTitleTest">validateTitleTest</a> <!-- method navigator-link -->
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="udemy.ValidateTitle" hash-for-method="validateTitleTest">validateTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -207,27 +207,22 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;Suite&quot;&gt;
   &lt;listeners&gt;
     &lt;listener class-name=&quot;udemy.Listeners&quot;/&gt;
     &lt;listener class-name=&quot;resources.ExtentReporterNG&quot;/&gt;
   &lt;/listeners&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;App Testing&quot; verbose=&quot;0&quot;&gt;
-    &lt;classes&gt;
-      &lt;class name=&quot;udemy.AppTest&quot;/&gt;
-    &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- App Testing --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Validating nav bar&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Validating nav bar&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;udemy.ValidateNavBar&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Validating nav bar --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Validating title&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Validating title&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;udemy.ValidateTitle&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Validating title --&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Validating login&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Validating login&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;udemy.HomePage&quot;/&gt;
     &lt;/classes&gt;
@@ -242,9 +237,6 @@
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
-              <li>
-                <span class="test-name">App Testing (1 class)</span>
-              </li>
               <li>
                 <span class="test-name">Validating nav bar (1 class)</span>
               </li>
@@ -282,28 +274,28 @@ data.addRows(5);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'loginPageTest')
 data.setCell(0, 2, 'udemy.HomePage')
-data.setCell(0, 3, 2051);
+data.setCell(0, 3, 1585);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'loginPageTest')
 data.setCell(1, 2, 'udemy.HomePage')
-data.setCell(1, 3, 1936);
+data.setCell(1, 3, 1531);
 data.setCell(2, 0, 2)
 data.setCell(2, 1, 'validateNavBarTest')
 data.setCell(2, 2, 'udemy.ValidateNavBar')
-data.setCell(2, 3, 96);
+data.setCell(2, 3, 80);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'validateHeader')
 data.setCell(3, 2, 'udemy.ValidateTitle')
-data.setCell(3, 3, 60);
+data.setCell(3, 3, 42);
 data.setCell(4, 0, 4)
 data.setCell(4, 1, 'validateTitleTest')
 data.setCell(4, 2, 'udemy.ValidateTitle')
-data.setCell(4, 3, 48);
+data.setCell(4, 3, 32);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <span class="suite-total-time">Total running time: 3 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -336,49 +328,49 @@ return data;
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">validateNavBarTest</span>
-                <span class="method-start">14543 ms</span>
+                <span class="method-start">9060 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">14643 ms</span>
+                <span class="method-start">9142 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">udemy.ValidateTitle</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">14805 ms</span>
+                <span class="method-start">9264 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">validateHeader</span>
-                <span class="method-start">28587 ms</span>
+                <span class="method-start">17479 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">validateTitleTest</span>
-                <span class="method-start">28647 ms</span>
+                <span class="method-start">17522 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">28695 ms</span>
+                <span class="method-start">17554 ms</span>
               </div> <!-- configuration-test after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">udemy.HomePage</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">initialize</span>
-                <span class="method-start">28846 ms</span>
+                <span class="method-start">17653 ms</span>
               </div> <!-- configuration-test before -->
               <div class="test-method">
                 <span class="method-name">loginPageTest(nonerestricteduser@qw.com, 123456)</span>
-                <span class="method-start">45863 ms</span>
+                <span class="method-start">28991 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginPageTest(restricteduser@qw.com, 456789)</span>
-                <span class="method-start">47914 ms</span>
+                <span class="method-start">30577 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">49850 ms</span>
+                <span class="method-start">32108 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

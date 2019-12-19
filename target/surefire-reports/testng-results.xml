@@ -1,55 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-11-20T21:16:13 CET" name="Suite" finished-at="2019-11-20T21:17:03 CET" duration-ms="50016">
+  <suite name="Suite" duration-ms="32173" started-at="2019-12-19T14:07:48 CET" finished-at="2019-12-19T14:08:20 CET">
     <groups>
     </groups>
-    <test started-at="2019-11-20T21:16:13 CET" name="App Testing" finished-at="2019-11-20T21:16:13 CET" duration-ms="0">
-    </test> <!-- App Testing -->
-    <test started-at="2019-11-20T21:16:13 CET" name="Validating nav bar" finished-at="2019-11-20T21:16:28 CET" duration-ms="14751">
+    <test name="Validating nav bar" duration-ms="9201" started-at="2019-12-19T14:07:48 CET" finished-at="2019-12-19T14:07:57 CET">
       <class name="udemy.ValidateNavBar">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:udemy.ValidateNavBar@183e8023]" started-at="2019-11-20T21:16:13 CET" name="initialize" finished-at="2019-11-20T21:16:28 CET" duration-ms="14519" status="PASS">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:udemy.ValidateNavBar@769e7ee8]" name="initialize" is-config="true" duration-ms="9041" started-at="2019-12-19T14:07:48 CET" finished-at="2019-12-19T14:07:57 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="validateNavBarTest()[pri:0, instance:udemy.ValidateNavBar@183e8023]" started-at="2019-11-20T21:16:28 CET" name="validateNavBarTest" finished-at="2019-11-20T21:16:28 CET" duration-ms="96" status="PASS">
+        <test-method status="PASS" signature="validateNavBarTest()[pri:0, instance:udemy.ValidateNavBar@769e7ee8]" name="validateNavBarTest" duration-ms="80" started-at="2019-12-19T14:07:57 CET" finished-at="2019-12-19T14:07:57 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNavBarTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:udemy.ValidateNavBar@183e8023]" started-at="2019-11-20T21:16:28 CET" name="tearDown" finished-at="2019-11-20T21:16:28 CET" duration-ms="108" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:udemy.ValidateNavBar@769e7ee8]" name="tearDown" is-config="true" duration-ms="56" started-at="2019-12-19T14:07:57 CET" finished-at="2019-12-19T14:07:57 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- udemy.ValidateNavBar -->
     </test> <!-- Validating nav bar -->
-    <test started-at="2019-11-20T21:16:28 CET" name="Validating title" finished-at="2019-11-20T21:16:42 CET" duration-ms="13986">
+    <test name="Validating title" duration-ms="8342" started-at="2019-12-19T14:07:57 CET" finished-at="2019-12-19T14:08:05 CET">
       <class name="udemy.ValidateTitle">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:udemy.ValidateTitle@792bbc74]" started-at="2019-11-20T21:16:28 CET" name="initialize" finished-at="2019-11-20T21:16:42 CET" duration-ms="13782" status="PASS">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:udemy.ValidateTitle@3967e60c]" name="initialize" is-config="true" duration-ms="8213" started-at="2019-12-19T14:07:57 CET" finished-at="2019-12-19T14:08:05 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="validateHeader()[pri:0, instance:udemy.ValidateTitle@792bbc74]" started-at="2019-11-20T21:16:42 CET" name="validateHeader" finished-at="2019-11-20T21:16:42 CET" duration-ms="60" status="PASS">
+        <test-method status="PASS" signature="validateHeader()[pri:0, instance:udemy.ValidateTitle@3967e60c]" name="validateHeader" duration-ms="42" started-at="2019-12-19T14:08:05 CET" finished-at="2019-12-19T14:08:05 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateHeader -->
-        <test-method signature="validateTitleTest()[pri:0, instance:udemy.ValidateTitle@792bbc74]" started-at="2019-11-20T21:16:42 CET" name="validateTitleTest" finished-at="2019-11-20T21:16:42 CET" duration-ms="48" status="PASS">
+        <test-method status="PASS" signature="validateTitleTest()[pri:0, instance:udemy.ValidateTitle@3967e60c]" name="validateTitleTest" duration-ms="32" started-at="2019-12-19T14:08:05 CET" finished-at="2019-12-19T14:08:05 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:udemy.ValidateTitle@792bbc74]" started-at="2019-11-20T21:16:42 CET" name="tearDown" finished-at="2019-11-20T21:16:42 CET" duration-ms="96" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:udemy.ValidateTitle@3967e60c]" name="tearDown" is-config="true" duration-ms="52" started-at="2019-12-19T14:08:05 CET" finished-at="2019-12-19T14:08:05 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- udemy.ValidateTitle -->
     </test> <!-- Validating title -->
-    <test started-at="2019-11-20T21:16:42 CET" name="Validating login" finished-at="2019-11-20T21:17:03 CET" duration-ms="21108">
+    <test name="Validating login" duration-ms="14517" started-at="2019-12-19T14:08:06 CET" finished-at="2019-12-19T14:08:20 CET">
       <class name="udemy.HomePage">
-        <test-method is-config="true" signature="initialize()[pri:0, instance:udemy.HomePage@58359ebd]" started-at="2019-11-20T21:16:42 CET" name="initialize" finished-at="2019-11-20T21:16:59 CET" duration-ms="17009" status="PASS">
+        <test-method status="PASS" signature="initialize()[pri:0, instance:udemy.HomePage@65466a6a]" name="initialize" is-config="true" duration-ms="11332" started-at="2019-12-19T14:08:06 CET" finished-at="2019-12-19T14:08:17 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initialize -->
-        <test-method signature="loginPageTest(java.lang.String, java.lang.String)[pri:0, instance:udemy.HomePage@58359ebd]" started-at="2019-11-20T21:16:59 CET" name="loginPageTest" data-provider="getData" finished-at="2019-11-20T21:17:01 CET" duration-ms="2051" status="PASS">
+        <test-method status="PASS" signature="loginPageTest(java.lang.String, java.lang.String)[pri:0, instance:udemy.HomePage@65466a6a]" name="loginPageTest" duration-ms="1585" started-at="2019-12-19T14:08:17 CET" data-provider="getData" finished-at="2019-12-19T14:08:18 CET">
           <params>
             <param index="0">
               <value>
@@ -65,7 +63,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTest -->
-        <test-method signature="loginPageTest(java.lang.String, java.lang.String)[pri:0, instance:udemy.HomePage@58359ebd]" started-at="2019-11-20T21:17:01 CET" name="loginPageTest" data-provider="getData" finished-at="2019-11-20T21:17:03 CET" duration-ms="1936" status="PASS">
+        <test-method status="PASS" signature="loginPageTest(java.lang.String, java.lang.String)[pri:0, instance:udemy.HomePage@65466a6a]" name="loginPageTest" duration-ms="1531" started-at="2019-12-19T14:08:18 CET" data-provider="getData" finished-at="2019-12-19T14:08:20 CET">
           <params>
             <param index="0">
               <value>
@@ -81,7 +79,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:udemy.HomePage@58359ebd]" started-at="2019-11-20T21:17:03 CET" name="tearDown" finished-at="2019-11-20T21:17:03 CET" duration-ms="104" status="PASS">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:udemy.HomePage@65466a6a]" name="tearDown" is-config="true" duration-ms="61" started-at="2019-12-19T14:08:20 CET" finished-at="2019-12-19T14:08:20 CET">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
